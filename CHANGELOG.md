@@ -1,6 +1,13 @@
 # Changelog
 
 
+## [1.24.0](https://github.com/googleapis/python-aiplatform/compare/v1.23.0...v1.24.0) (2023-03-17)
+
+
+### Features
+
+* Add incremental training to AutoMLImageTrainingJob. ([bb92380](https://github.com/googleapis/python-aiplatform/commit/bb92380f1281466db95d31218d1e898c77e596f5))
+
 ## [1.23.0](https://github.com/googleapis/python-aiplatform/compare/v1.22.1...v1.23.0) (2023-03-15)
 
 
