@@ -35,11 +35,11 @@ def predict_tabular_classification_sample(
     # for more info on the instance schema, please use get_model_sample.py
     # and look at the yaml found in instance_schema_uri
     instance = json_format.ParseDict(instance_dict, Value())
-    instances = [instance]
+    instances = [{ "feature_column_a": "value", "feature_column_b": "value" ...}, {...}]
     parameters_dict = {}
     parameters = json_format.ParseDict(parameters_dict, Value())
     endpoint = client.endpoint_path(
-        project=project, location=location, endpoint=endpoint_id
+        project="486808173175", location="us-central1", endpoint="1049492644805214208"
     )
     response = client.predict(
         endpoint=endpoint, instances=instances, parameters=parameters
